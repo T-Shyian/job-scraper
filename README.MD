@@ -29,4 +29,4 @@ An automated job vacancy scraping pipeline featuring cloud database integration 
 
 ## Configuration & Environment
 
-The application uses `config.json` to declaratively define scraping targets. A structural blueprint is provided in `config.example.json`. Secret keys, tokens, and database credentials are strictly isolated within environment variables, with a template available in `.env.example`.
+The application uses `config.json` to declaratively define scraping targets.Secret keys, tokens, and database credentials are strictly isolated within environment variables, with a template available in `.env.example`.
