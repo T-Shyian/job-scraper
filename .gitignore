@@ -141,3 +141,12 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Local SQLite database files (replaced by Supabase in production)
+*.db
+
+# macOS system files
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
