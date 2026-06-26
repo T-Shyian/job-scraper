@@ -171,7 +171,7 @@
     "title": ".jobTitle a",
     "location": ".jobLocation",
     "link": ".jobTitle a",
-    "nextPage": "ul.pagination li.active ~ li a:not(.paginationItemLast)"
+    "nextPage": "ul.pagination li.active + li:not(:last-child) a"
   }
 }
 ]
