@@ -1,0 +1,177 @@
+[
+  {
+    "companyName": "Allegro",
+    "url": "https://jobs.allegro.eu/offer/",
+    "paginationType": "pins",
+    "selectors": {
+      "jobRow": ".offerCard",
+      "title": ".offerCard__name",
+      "location": ".offerCard__location",
+      "link": "a.offerCard__url",
+      "pinButton": "button.pagination__pinButton"
+    }
+  },
+  {
+    "companyName": "Amadeus",
+    "url": "https://amadeus.wd502.myworkdayjobs.com/jobs?remoteType=162121726f6f10014e4bd81287b00000&locationCountry=131d5ac7e3ee4d7b962bdc96e498e412",
+    "strictLocationFilter": false,
+    "selectors": {
+      "jobRow": "li:has([data-automation-id=\"jobTitle\"])",
+      "title": "[data-automation-id=\"jobTitle\"]",
+      "location": "[data-automation-id=\"locations\"] dd",
+      "link": "[data-automation-id=\"jobTitle\"]"
+    }
+  },
+  {
+    "companyName": "Capgemini",
+    "url": "https://www.capgemini.com/pl-pl/kariera/oferty-pracy/?page=1&size=11&country_code=pl-pl",
+    "selectors": {
+      "jobRow": "li[class*=\"JobRow-module__job-card-wrapper\"]",
+      "title": "div[class*=\"JobRow-module__title\"]",
+      "location": "div[class*=\"JobRow-module__location\"]",
+      "link": "a[class*=\"JobRow-module__job-card\"]",
+      "nextPage": "button[class*=\"Pagination-module__next\"]"
+    }
+  },
+  {
+  "companyName": "Deloitte",
+  "url": "https://apply.deloittece.com/pl_PL/careers/SearchJobs/?523=%5B5515%5D&523_format=1482&524=%5B3514%5D&524_format=1483&listFilterMode=1",
+  "strictLocationFilter": false,
+  "selectors": {
+    "jobRow": "article.article--result",
+    "title": "h3.article__header__text__title",
+    "location": ".article__header__text__subtitle",
+    "link": "h3.article__header__text__title a",
+    "nextPage": "[class*=\"pagination\" i] [class*=\"next\" i], button[class*=\"next\" i], [aria-label*=\"Next\" i], [aria-label*=\"Następna\" i]"
+    }
+  },
+  {
+  "companyName": "DXC",
+  "url": "https://careers.dxc.com/job-search-results/?compliment[]=Poland",
+  "strictLocationFilter": true,
+  "selectors": {
+    "jobRow":   ".job-innerwrap",
+    "title":    ".jobTitle a",
+    "location": "div[role='cell'].fusion-one-fifth",
+    "link":     ".jobTitle a",
+    "nextPage": "a.next, a.next-page, li[class*='next' i] a, [aria-label*='Next' i]"
+    }
+  },
+  {
+    "companyName": "Franklin Templeton",
+    "url": "https://franklintempleton.wd5.myworkdayjobs.com/Primary-External-1?locationCountry=131d5ac7e3ee4d7b962bdc96e498e412",
+    "strictLocationFilter": false,
+    "selectors": {
+      "jobRow": "li:has([data-automation-id=\"jobTitle\"])",
+      "title": "[data-automation-id=\"jobTitle\"]",
+      "location": "[data-automation-id=\"locations\"] dd",
+      "link": "[data-automation-id=\"jobTitle\"]"
+    }
+  },
+  {
+    "companyName": "GlaxoSmithKline",
+    "url": "https://jobs.gsk.com/gb/en/search-results?m=3&location=Poznan%2C%20Poland",
+    "scrapeMethod": "standard",
+    "strictLocationFilter": true,
+    "paginationType": "pins",
+    "selectors": {
+      "jobRow": "div[data-ph-at-id='jobs-list-item']",
+      "title": "a[data-ph-at-id='job-link']",
+      "location": "div[data-ph-at-id='job-location']",
+      "link": "a[data-ph-at-id='job-link']",
+      "pinButton": "a[data-ph-at-id='pagination-page-number-link']"
+    }
+  },
+  {
+    "companyName": "IKEA",
+    "url": "https://jobs.ikea.com/en/search-jobs/Poznan%2C%20Greater%20Poland/22908/4/798544-3337498-7530858-7531836-3088171/52x40692/16x92993/25/2",
+    "strictLocationFilter": false,
+    "waitUntil": "networkidle",
+    "selectors": {
+    "jobRow":      "li.job-list__item",
+    "title":       "span.job-list__title",
+    "location":    "span.job-list__location",
+    "link":        "a.job-list__anchor",
+    "nextPage":    "a.next",
+    "cookieAccept": "button[id*='system-ialert']:not(#system-ialert-manage-button), #system-ialert-accept-button"
+    }
+  },
+  {
+  "companyName": "KPMG",
+  "url": "https://generationkpmg.pl/oferty-pracy-i-praktyk/?branches%5B%5D=technologie-it&q=&location=poznan",
+  "strictLocationFilter": false,
+    "selectors": {
+    "jobRow": "#show-posts a[href*='oferty-pracy-i-praktyk/']",
+    "title": "div[class*='text-2xl']",
+    "location": "div[class*='justify-items-end']",
+    "nextPage": "#show-more-posts button, #show-more-posts a"
+    }
+  },
+  {
+    "companyName": "Rockwool",
+    "url": "https://rockwoolgroup.wd3.myworkdayjobs.com/ROCKWOOL?locationCountry=131d5ac7e3ee4d7b962bdc96e498e412",
+    "strictLocationFilter": false,
+    "selectors": {
+      "jobRow": "li:has([data-automation-id=\"jobTitle\"])",
+      "title": "[data-automation-id=\"jobTitle\"]",
+      "location": "[data-automation-id=\"locations\"] dd",
+      "link": "[data-automation-id=\"jobTitle\"]"
+    }
+  },
+  {
+    "companyName": "Poczta Polska",
+    "url": "https://www.poczta-polska.pl/kariera/oferty-pracy/",
+    "strictLocationFilter": true,
+    "waitUntil": "networkidle",
+    "selectorTimeout": 30000,
+    "preActions": [
+      { "type": "select", "selector": "#skk_region",    "label": "wielkopolskie" },
+      { "type": "fill",   "selector": "#skk_workplace", "value": "Poznań" },
+      { "type": "click",  "selector": "input[value='Szukaj'], button.skk_submit, input[type='submit']" }
+   ],
+    "selectors": {
+      "jobRow":   "tr[jobofferid]",
+      "title":    "td.skk_positionName",
+      "location": "td:nth-child(3)",
+      "link":     "a",
+      "nextPage": "a.skk_pager_next"
+    }
+  },
+  {
+    "companyName": "Standard Chartered",
+    "url": "https://jobs.standardchartered.com/go/Experienced-Professional-jobs/9783657/?facetFilters=%7B%22cust_region%22%3A%5B%22Europe+%26+Americas%22%5D%2C%22cust_csb_worktype%22%3A%5B%22Hybrid+Working%22%5D%2C%22mfield1%22%3A%5B%22Technology%22%5D%2C%22jobLocationCountry%22%3A%5B%22Poland%22%5D%7D&sortBy=date",
+    "strictLocationFilter": false,
+    "waitUntil": "networkidle",
+    "timeout": 60000,
+    "selectors": {
+      "jobRow": "li[data-testid='jobCard']",
+      "title": "a[data-testid*='jobCardTitle']",
+      "location": "div[data-testid='jobCardLocation']",
+      "link": "a[data-testid*='jobCardTitle']"
+    }
+  },
+  {
+  "companyName": "Urząd Miasta Poznania (BIP)",
+  "url": "https://bip.poznan.pl/bip/oferty-pracy/urzad-miasta-poznania/",
+  "strictLocationFilter": false,
+    "selectors": {
+    "jobRow": "table.table tbody tr",
+    "title": "td:nth-child(1) a",
+    "location": "td:nth-child(2)",
+    "link": "td:nth-child(1) a",
+    "nextPage": "ul.pagination li.next a, .pagination a[aria-label*=\"Next\" i]"
+    }
+  },
+  {
+  "companyName": "Volkswagen",
+  "url": "https://jobs.volkswagen-group.com/search/?searchby=distance&q=&geolocation=&d=5&lat=&lon=&optionsFacetsDD_city=Pozna%C5%84&optionsFacetsDD_facility=&optionsFacetsDD_department=&optionsFacetsDD_customfield2=&optionsFacetsDD_shifttype=&optionsFacetsDD_customfield3=",
+  "strictLocationFilter": true,
+  "selectors": {
+    "jobRow": "tr.data-row",
+    "title": ".jobTitle a",
+    "location": ".jobLocation",
+    "link": ".jobTitle a",
+    "nextPage": "ul.pagination li.active ~ li a:not(.paginationItemLast)"
+  }
+}
+]
