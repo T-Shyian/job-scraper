@@ -164,14 +164,14 @@
   },
   {
   "companyName": "Volkswagen",
-  "url": "https://jobs.volkswagen-group.com/search/?searchby=distance&q=&geolocation=&d=5&lat=&lon=&optionsFacetsDD_city=Pozna%C5%84&optionsFacetsDD_facility=&optionsFacetsDD_department=&optionsFacetsDD_customfield2=&optionsFacetsDD_shifttype=&optionsFacetsDD_customfield3=",
+  "url": "https://jobs.volkswagen-group.com/search/?q=&geolocation=60-219+-+Polska&searchby=distance&d=5&lat=52.40175&lon=16.9358",
   "strictLocationFilter": true,
   "selectors": {
-    "jobRow": "tr.data-row",
-    "title": ".jobTitle a",
+    "jobRow":   "tr.data-row",
+    "title":    ".jobTitle a",
     "location": ".jobLocation",
-    "link": ".jobTitle a",
-    "nextPage": "ul.pagination li.active + li:not(:last-child) a"
+    "link":     ".jobTitle a",
+    "nextPage": "div.pagination-top li.active + li a[href]:not([href='#'])"
   }
 }
 ]
