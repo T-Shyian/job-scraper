@@ -2,7 +2,7 @@ name: Job Scraper
 
 on:
   schedule:
-    - cron: '0 8,18 * * *'  # 10:00 і 20:00 за Варшавою (UTC+2)
+    - cron: '17 8,18 * * *'  # 10:00 і 20:00 за Варшавою (UTC+2)
   workflow_dispatch:          # ручний запуск через кнопку
 
 jobs:
