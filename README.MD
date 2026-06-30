@@ -30,3 +30,9 @@ An automated job vacancy scraping pipeline featuring cloud database integration 
 ## Configuration & Environment
 
 The application uses `config.json` to declaratively define scraping targets.Secret keys, tokens, and database credentials are strictly isolated within environment variables, with a template available in `.env.example`.
+
+## Sample Notification
+
+When a new vacancy matching the configured filters is found, the bot sends an instant Telegram notification:
+
+![Telegram notification example](assets/obraz_bot.jpg)
