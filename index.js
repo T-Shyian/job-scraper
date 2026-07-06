@@ -51,9 +51,9 @@ function isRelevantJobTitle(title) {
   ];
 
   const blockedRegexes = [
-    'sprzedaż', 'sales', 'electrical', 'inwestycji', 'business', 'trade', 'risk',
-    'senior', 'lead', 'principal', 'leader', 'director', 'architect', 'marketing',
-    'hr', 'human', 'recepcja', 'biura', 'murex', 'invest', 'affair', 'tax'
+    'senior', 'lead', 'principal', 'leader', 'director', 'architect', 'murex', 'siebel',
+    'affair', 'biura', 'business', 'credit', 'electrical', 'electricity', 'factory', 'field', 'finance', 'hr', 'human', 'inwestycji', 'invest',
+    'marketing', 'recepcja', 'risk', 'tax', 'trade' 'sprzedaż', 'sales' 
   ].map(kw => new RegExp(`\\b${kw}\\b`, 'i'));
 
   if (blockedRegexes.some(re => re.test(title))) return false;
