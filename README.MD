@@ -35,4 +35,7 @@ The application uses `config.json` to declaratively define scraping targets.Secr
 
 When a new vacancy matching the configured filters is found, the bot sends an instant Telegram notification:
 
+<p align="center">
 <img src="assets/obraz_bot.jpg" alt="Telegram notification example" width="400">
+<img src="assets/obraz_vacancy.jpg" alt="Telegram notification example" width="400">
+</p>
